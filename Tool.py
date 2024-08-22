@@ -105,7 +105,7 @@ class AOVPickTool:
         print("Hoàn thành quá trình BAN/PICK.")
 
 # Đường dẫn đến file counter của bạn
-counter_file_path = 'E:\\HocTap\\LTPython\\PickAOV\\Counter.xlsx'
+counter_file_path = 'E:\\HocTap\\LTPython\\PickAOV\\demo-tool-pickAOV\\Counter.xlsx'
 
 # Nhập đội của người dùng từ bàn phím
 my_team = input("Nhập đội của bạn (red/blue): ").strip().lower()
