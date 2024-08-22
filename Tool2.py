@@ -99,7 +99,7 @@ def create_interface():
     tk.Button(window, text="Cấm tướng", command=ban_hero).grid(row=2, column=3, padx=10, pady=10)
 
     # Nhập tướng đối thủ đã chọn
-    tk.Label(window, text="Nhập tướng đối thủ:").grid(row=3, column=0, padx=10, pady=10)
+    tk.Label(window, text="Nhập tướng để chọn:").grid(row=3, column=0, padx=10, pady=10)
     hero_entry = tk.Entry(window)
     hero_entry.grid(row=3, column=1, columnspan=2)
     tk.Button(window, text="Chọn tướng", command=pick_hero).grid(row=3, column=3, padx=10, pady=10)
